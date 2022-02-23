@@ -1,0 +1,10 @@
+CREATE TABLE codigospostales(`id` INT(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+`alert` VARCHAR(80) NOT NULL,
+`postcode` INT(5)  NOT NULL,
+`locality` VARCHAR(80) NOT NULL,
+`lga` VARCHAR(25) NOT NULL,
+`lga_shortname` VARCHAR(2) NOT NULL,
+`state` VARCHAR(25) NOT NULL,
+`state_shortname` VARCHAR(2) NOT NULL,
+`lat` DECIMAL(7,4) NOT NULL,
+`lng` DECIMAL(8,4) NOT NULL);
